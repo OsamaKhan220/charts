@@ -3,7 +3,7 @@ entries:
   us-ldap:
   - apiVersion: v2
     appVersion: 2.4.57
-    created: "2022-09-05T19:38:37.941536897Z"
+    created: "2022-09-05T19:41:39.473705908Z"
     dependencies:
     - condition: ltb-passwd.enabled
       name: ltb-passwd
@@ -19,7 +19,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: Community developed LDAP software
-    digest: ad333aef88a0820a327a4ea351acc494e0eae37145e741a2fe9988790c236748
+    digest: 7d0995eb0180253ee1b63a0aa1daf831b10bccd62c5bae55b12d9683f3907000
     home: https://www.openldap.org
     icon: https://raw.githubusercontent.com/jp-gouin/helm-openldap/master/logo.png
     keywords:
@@ -71,4 +71,4 @@ entries:
     urls:
     - us-ldap-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-09-05T19:38:37.937579598Z"
+generated: "2022-09-05T19:41:39.469361756Z"
