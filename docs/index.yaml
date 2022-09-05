@@ -3,6 +3,41 @@ entries:
   us-ldap:
   - apiVersion: v2
     appVersion: 2.4.57
+    created: "2022-09-05T19:38:37.941536897Z"
+    dependencies:
+    - condition: ltb-passwd.enabled
+      name: ltb-passwd
+      repository: ""
+      version: 0.1.x
+    - condition: phpldapadmin.enabled
+      name: phpldapadmin
+      repository: ""
+      version: 0.1.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Community developed LDAP software
+    digest: ad333aef88a0820a327a4ea351acc494e0eae37145e741a2fe9988790c236748
+    home: https://www.openldap.org
+    icon: https://raw.githubusercontent.com/jp-gouin/helm-openldap/master/logo.png
+    keywords:
+    - ldap
+    - openldap
+    - iam-stack
+    - high availability
+    maintainers:
+    - email: jp-gouin@hotmail.fr
+      name: Jean-Philippe Gouin
+    name: us-ldap
+    sources:
+    - https://github.com/jp-gouin/helm-openldap
+    urls:
+    - https://osamakhan220.github.io/charts/us-ldap-3.0.1.tgz
+    version: 3.0.1
+  - apiVersion: v2
+    appVersion: 2.4.57
     created: "2022-09-05T14:30:22.008235+03:00"
     dependencies:
     - condition: ltb-passwd.enabled
@@ -36,4 +71,4 @@ entries:
     urls:
     - us-ldap-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-09-05T14:30:22.005702+03:00"
+generated: "2022-09-05T19:38:37.937579598Z"
